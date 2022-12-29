@@ -11,6 +11,9 @@
 		D78AE125295B5A94008781AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AE124295B5A94008781AE /* ContentView.swift */; };
 		D78AE127295B5A95008781AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78AE126295B5A95008781AE /* Assets.xcassets */; };
 		D78AE12A295B5A95008781AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78AE129295B5A95008781AE /* Preview Assets.xcassets */; };
+		D78AE131295B5B45008781AE /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AE130295B5B45008781AE /* Properties.swift */; };
+		D78AE133295B5FD0008781AE /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AE132295B5FD0008781AE /* SegmentedPicker.swift */; };
+		D78AE13C295E0F07008781AE /* Technical.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AE13B295E0F07008781AE /* Technical.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		D78AE124295B5A94008781AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D78AE126295B5A95008781AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D78AE129295B5A95008781AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D78AE130295B5B45008781AE /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		D78AE132295B5FD0008781AE /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		D78AE13B295E0F07008781AE /* Technical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technical.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				D78AE122295B5A94008781AE /* ARApp.swift */,
 				D78AE124295B5A94008781AE /* ContentView.swift */,
+				D78AE132295B5FD0008781AE /* SegmentedPicker.swift */,
+				D78AE13B295E0F07008781AE /* Technical.swift */,
+				D78AE130295B5B45008781AE /* Properties.swift */,
 				D78AE126295B5A95008781AE /* Assets.xcassets */,
 				D78AE128295B5A95008781AE /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78AE131295B5B45008781AE /* Properties.swift in Sources */,
 				D78AE125295B5A94008781AE /* ContentView.swift in Sources */,
+				D78AE13C295E0F07008781AE /* Technical.swift in Sources */,
+				D78AE133295B5FD0008781AE /* SegmentedPicker.swift in Sources */,
 				D78AE123295B5A94008781AE /* ARApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AR/Preview Content\"";
+				DEVELOPMENT_TEAM = 3M9TNH7XM2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AR/Preview Content\"";
+				DEVELOPMENT_TEAM = 3M9TNH7XM2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
